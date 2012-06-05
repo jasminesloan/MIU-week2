@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Author: Jasmine Sloan -->
+<!-- MIU: Week 1 Project -->
+<!-- Term: 1204 -->
+<!-- Southern Style DJ's -->
+
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="index page, Southern Style DJ's app" />
+		<meta name="keywords" content="html5, mobile development, Full Sail University, mixtapes" />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="HandheldFriendly" content="True" />
+		<meta name="MobileOptimized" content="320" />
+		<title>Southern Style DJ's Mixtapes</title>
+		<link rel="stylesheet" type="text/css" href="css/additemstyles.css" />
+	</head>
+	<!-- Document Header -->
+<body>
+	<header>
+		<h1>Search Mixtapes</h1> 
+		<img src="Images/ssdjlogolongway.png">
+	</header>
+			<label for="Search By Mixtape Name">Search By Mixtape Name:</label><input type="mixtape" id="mixtape" placeholder=" Pump Up the Volume" />
+			<input type="button" value="Search" id="search"/>
+		<nav>
+			<a href="#" id="clear">Clear Stored Data</a>
+			<a href="#" id="displayLink">Display Data</a>
+			<a href="additem.html" id="addNew" style="display:none;">Add New Item</a>
+		</nav>
+	<!-- Log In Information -->
+	<form action="#" method="post" id="searchForm">
+			<fieldset>
+				<legend>Search Mixtapes</legend>
+				<span>*Fields are Required</span>
+					<ul id="errors"></ul>
+					<ul id="questions">
+						<li id="select"><label for="group">*Search By Genre:</label><br /></li>
+						<li><label for="Purchase">Purchase? </label>
+					<ul id="purchase">
+							<li><input type="radio" checked value="Now" id="now" name="answer" /><label for="now">Now</label> </li>
+							<li><input type="radio" value="Place in Que" id="place in que" name="answer" /><label for="place in que">Place in Que</label> </li>
+					</ul>
+						</li>
+						<li><label for="quantity of mixtapes">Quantity of Mixtapes</label><input type="range" min="1" max="10" id="quantity" /></li>
+						<li><label for="date">Date Purchased</label><input type="date" id="date" /></li>
+						<li><label for="suggestions">Suggestions: </label><textarea id="suggestions"></textarea></li>
+					</ul>
+			</fieldset>
+				<input type="submit" value="Save Mixtape" id="save" /><br />
+		<footer>
+			<nav>
+				<a href="error.html" title='Sign Up for Email List!'>Sign Up for Email List!</a>
+				<p><a href="error.html" title='Free Mixtape of the Week!'>Free Mixtape of the Week!</a></p>
+				<p><a href="http://soundcloud.com/oompcamptv" title='Free Twitter Mix!'>Free Twitter Mix!</a></p>
+			</nav>
+		</footer>
+		</form>
+			<script src="js/JSON.js" type="text/javascript"></script>
+			<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>

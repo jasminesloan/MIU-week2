@@ -1,0 +1,100 @@
+/* <!-- Author: Jasmine Sloan -->
+<!-- MIU: Week 2 Project -->
+<!-- Term: 1204 -->
+<!-- Southern Style DJ's --> 
+*/
+
+body{
+	/* Safari and Chrome */
+	background:-webkit-linear-gradient(top,#ab242f,#000);
+	/* Firefox */
+	background:-moz-linear-gradient(top,#ab242f,#000);
+	color:#000;
+	display:block;
+	margin:0px;
+	overflow:scroll;
+}
+h1{
+	/* Safari and Chrome */
+	background:-webkit-linear-gradient(top,#999,#000);
+	/* Firefox */
+	background:-moz-linear-gradient(top,#999,#000);
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	margin:0px 0px 0px 0px;
+	padding:10px 5px;
+	text-align:center; 
+}
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+input[type=mixtape]{
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 5px 5px black;
+	-webkit-box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px black;
+	margin: 10px 0px 20px 20px;
+	width:220px;
+	height: 20px;
+	text-align: left;
+}
+fieldset{
+	border-right: 1px solid #666;
+	border-top-right-width:1px;
+	border-left-width: 1px;
+	margin: 0px 10px 40px 10px;
+	padding: 10px 10px 20px 10px;
+}
+legend{
+	font-family: "Century Schoolbook", Helvetica, sans-serif;
+	font: 28px;
+	color: #FFF;
+	font-weight: bold;
+
+}
+label{
+	font-family: "Century Schoolbook", Helvetica, sans-serif;
+	font: 20px;
+	color: #FFF;
+	display: block;
+	margin: 10px 0px 0px 10px;
+	}
+li{
+	font-family: "Century Schoolbook", Helvetica, sans-serif;
+	font: 12px;
+	color: #FFF;
+}
+ul{
+	font-family: "Century Schoolbook", Helvetica, sans-serif;
+	font: 20px;
+	color: #FFF;
+}
+a{
+	font-family: "Century Schoolbook", Helvetica, sans-serif;
+	font: 12px;
+	color: #FF7F24;
+	font-style: italic;
+	margin-left: 20px
+}
+p{
+	font-family: "Century Schoolbook", Helvetica, sans-serif;
+	font: 12px;
+	color: #FFF;
+}
+h2{
+	font-family: "Century Schoolbook", Helvetica, sans-serif;
+	font: 12px;
+	color: #FFF;
+}
+span{
+	font-family: "Century Schoolbook", Helvetica, sans-serif;
+	font: 12px;
+	color: #FFF;
+}
+input[type=submit]
+*/
